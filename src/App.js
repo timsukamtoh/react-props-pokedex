@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Pokedex  from './Pokedex';
+import Pokegame from './Pokegame';
 /**
  * Constructs Application
  * @returns JSX-HTML div of a pokedex instance
@@ -9,7 +9,7 @@ import Pokedex  from './Pokedex';
 function App() {
   return (
     <div className="App"> Pokedex!
-      <Pokedex/>
+      <Pokegame />
     </div>
   );
 }
